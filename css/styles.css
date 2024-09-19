@@ -1509,6 +1509,7 @@ hr.fancy::before {
     font-family: var(--font-1);
     font-size  : var(--text-md);
     line-height: var(--vspace-1_25);
+    text-align: justify;
 }
 
 @media screen and (max-width: 800px) {
@@ -3406,7 +3407,7 @@ td:last-child {
 }
 
 .s-intro__content-title {
-    font-size     : clamp(3.8rem, 4.8vw, 8.8rem);
+    font-size     : clamp(3.4rem, 4.4vw, 8.4rem);
     line-height   : 1.045;
     letter-spacing: -0.025em;
     margin-top    : 0;
